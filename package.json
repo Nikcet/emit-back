@@ -1,5 +1,5 @@
 {
-  "name": "kinopoisk-kurilshika",
+  "name": "Matches",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "express-winston": "^4.2.0",
     "helmet": "^5.0.2",
     "jsonwebtoken": "^8.5.1",
+    "mongodb": "^5.2.0",
     "mongoose": "^6.5.1",
     "uuid": "^9.0.0",
     "validator": "^13.7.0",
