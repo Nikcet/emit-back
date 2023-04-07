@@ -2,3 +2,8 @@
 
 ## Запуск
 npm run dev
+
+## Стек
+- Express.js
+- MongoDB
+- JavaScript
