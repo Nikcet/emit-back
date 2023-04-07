@@ -7,14 +7,12 @@ const matchSchema = new mongoose.Schema({
     minlength: 2,
     maxlength: 30,
     default: 'Команда 1',
-    required: true,
   },
   secondCommand: {
     type: String,
     minlength: 2,
     maxlength: 30,
     default: 'Команда 2',
-    required: true,
   },
   isRunning: {
     type: Boolean,

@@ -11,8 +11,8 @@ router.get('/', getMatch);
 
 router.patch('/create', celebrate({
   body: Joi.object().keys({
-    firstCommand: Joi.string().min(2).max(30).required(),
-    secondCommand: Joi.string().min(2).max(30).required(),
+    firstCommand: Joi.string().min(2).max(30),
+    secondCommand: Joi.string().min(2).max(30),
     isRunning: Joi.boolean(),
     isPaused: Joi.boolean(),
     period: Joi.number(),
@@ -25,8 +25,8 @@ router.patch('/create', celebrate({
 
 router.post('/create', celebrate({
   body: Joi.object().keys({
-    firstCommand: Joi.string().min(2).max(30).required(),
-    secondCommand: Joi.string().min(2).max(30).required(),
+    firstCommand: Joi.string().min(2).max(30),
+    secondCommand: Joi.string().min(2).max(30),
     isRunning: Joi.boolean(),
     isPaused: Joi.boolean(),
     period: Joi.number(),
